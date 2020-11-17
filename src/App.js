@@ -22,8 +22,8 @@ export default class Main extends Component {
         <AceEditor
           mode="javascript"
           theme="monokai"
-          height="750px"
-          width="1300px"
+          height='750px'
+          width='1300px'
           // onChange={ onChange }
           name="SOMETHING"
           editorProps={{ $blockScrolling: true, $blockSelectEnabled: true }}
@@ -33,12 +33,8 @@ export default class Main extends Component {
             enableSnippets: true,
           }}
         />
-        <div id="terminal">
-          let term = new Terminal();
-          term.open(document.getElementById("terminal")); term.write("Hello from
-          \x1B[1;3;31mxterm.js\x1B[0m $ ");
-        </div>
       </div>
+
     );
   }
 }
